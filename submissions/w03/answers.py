@@ -11,20 +11,24 @@ Format jawaban:
 """
 from __future__ import annotations
 def q01() -> bool:
+    return True
     """[T/F] Dalam konfigurasi paralel, sistem akan gagal hanya jika semua komponen gagal."""
     raise NotImplementedError
 
 def q02() -> bool:
+    return False
     """[T/F] Menambahkan komponen secara seri akan meningkatkan reliabilitas keseluruhan
 sistem."""
     raise NotImplementedError
 
 def q03() -> bool:
+    return True
     """[T/F] Reliabilitas total sistem seri selalu lebih kecil atau sama dengan reliabilitas
 komponen terlemahnya."""
     raise NotImplementedError
 
 def q04() -> str:
+    return 'B'
     """[MC] Sebuah sistem terdiri dari dua komponen dengan reliabilitas 0,9 yang disusun
 secara paralel. Reliabilitas sistem adalah:
 
@@ -35,6 +39,7 @@ D) 1,80"""
     raise NotImplementedError
 
 def q05() -> str:
+    return 'A'
     """[MC] Jika tiga switch identik dengan reliabilitas 0,8 disusun seri, reliabilitas totalnya
 adalah:
 
@@ -45,6 +50,7 @@ D) 0,2"""
     raise NotImplementedError
 
 def q06() -> str:
+    return 'B'
     """[MC] Manakah konfigurasi yang paling tahan terhadap kegagalan komponen tunggal?
 
 A) Seri.
@@ -54,6 +60,7 @@ D) Sistem tanpa redundansi."""
     raise NotImplementedError
 
 def q07() -> str:
+    return 'B'
     """[MC] Istilah untuk probabilitas sistem berfungsi pada waktu tertentu t adalah:
 
 A) Efisiensi.
@@ -63,25 +70,30 @@ D) Latensi."""
     raise NotImplementedError
 
 def q08() -> float:
+    return 0.76
     """[Numeric] Hitung reliabilitas sistem seri dari dua komponen dengan reliabilitas 0,95 dan
 0,8."""
     raise NotImplementedError
 
 def q09() -> float:
+    return 0.01
     """[Numeric] Jika reliabilitas satu server adalah 0,9, berapa probabilitas dua server
 tersebut gagal bersamaan dalam susunan paralel?"""
     raise NotImplementedError
 
 def q10() -> float:
+    return 0.01
     """[Numeric] Sebuah sistem memiliki reliabilitas 0,99. Berapa probabilitas kegagalannya?"""
     raise NotImplementedError
 
 def q11() -> float:
+    return 0.875
     """[Numeric] Tiga lampu disusun paralel dengan reliabilitas masing-masing 0,5. Berapa
 reliabilitas total sistem lampu tersebut?"""
     raise NotImplementedError
 
 def q12() -> float:
+    return 0.904
     """[Numeric] Berapa probabilitas sistem seri dengan 10 komponen identik (masing-masing
 R = 0,99) tetap berfungsi? (Gunakan 3 desimal)"""
     raise NotImplementedError
