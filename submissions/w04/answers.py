@@ -11,19 +11,23 @@ Format jawaban:
 """
 from __future__ import annotations
 def q01() -> bool:
+    return True
     """[T/F] Jika kejadian A dan B independen, maka P(A|B) = P(A)."""
     raise NotImplementedError
 
 def q02() -> bool:
+    return False
     """[T/F] Probabilitas kondisional P(A|B) selalu sama dengan P(B|A)."""
     raise NotImplementedError
 
 def q03() -> bool:
+    return True
     """[T/F] Teorema Bayes memungkinkan kita untuk membalik kondisi probabilitas dari
 P(B|A) menjadi P(A|B)."""
     raise NotImplementedError
 
 def q04() -> str:
+    return 'C'
     """[MC] Jika P(A) = 0,5,P(B) = 0,4 dan A,B independen, maka P(A∩B) adalah:
 
 A) 0,9
@@ -33,6 +37,7 @@ D) 0,5"""
     raise NotImplementedError
 
 def q05() -> str:
+    return 'A'
     """[MC] Rumus Bayes menyatakan bahwa P(A|B) sama dengan:
 
 A) P(B|A)P(A)/P(B)
@@ -42,6 +47,7 @@ D) P(A∩B)"""
     raise NotImplementedError
 
 def q06() -> str:
+    return 'B'
     """[MC] Kejadian di mana hasil satu eksperimen tidak mempengaruhi hasil eksperimen
 lainnya disebut:
 
@@ -52,6 +58,7 @@ D) Komplementer."""
     raise NotImplementedError
 
 def q07() -> str:
+    return 'B'
     """[MC] Jika sebuah tes medis memiliki sensitivitas tinggi, maka:
 
 A) Banyak hasil false positive.
@@ -61,26 +68,31 @@ D) Tes tersebut tidak berguna."""
     raise NotImplementedError
 
 def q08() -> float:
+    return 0.4
     """[Numeric] Jika P(A∩B) = 0,2 dan P(B) = 0,5, berapakah P(A|B)?"""
     raise NotImplementedError
 
 def q09() -> float:
+    return 0.08
     """[Numeric] Probabilitas hujan adalah 0,1. Jika hujan, probabilitas jalan macet adalah 0,8.
 Berapa probabilitas (Hujan DAN Macet)?"""
     raise NotImplementedError
 
 def q10() -> float:
+    return 0.5
     """[Numeric] Dalam sebuah populasi, 1% menderita penyakit. Sebuah tes memiliki akurasi
 99% (baik untuk yang sakit maupun sehat). Jika seseorang dites positif, berapa
 probabilitas dia benar-benar sakit?"""
     raise NotImplementedError
 
 def q11() -> float:
+    return 0.49
     """[Numeric] Jika P(A) = 0,3,P(B|A) = 0,7 dan P(B|Ac) = 0,4, hitung P(B)
 menggunakan Hukum Probabilitas Total."""
     raise NotImplementedError
 
 def q12() -> float:
+    return 0.429
     """[Numeric] Dari soal nomor 11, hitung P(A|B) menggunakan Teorema Bayes (Gunakan
 3 desimal)."""
     raise NotImplementedError
