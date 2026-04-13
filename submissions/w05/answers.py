@@ -13,14 +13,18 @@ from __future__ import annotations
 def q01() -> bool:
     """[T/F] Nilai harapan dari sebuah variabel acak harus merupakan salah satu nilai yang
 mungkin muncul dari variabel tersebut."""
+    return False
+
     raise NotImplementedError
 
 def q02() -> bool:
     """[T/F] Variansi dari sebuah variabel acak tidak pernah bernilai negatif."""
+    return True
     raise NotImplementedError
 
 def q03() -> bool:
     """[T/F] Jika X adalah konstanta c, maka E[X] = c dan (X) = 0."""
+    return True
     raise NotImplementedError
 
 def q04() -> str:
@@ -30,6 +34,7 @@ A) 10
 B) 13
 C) 8
 D) 5"""
+    return 'B'
     raise NotImplementedError
 
 def q05() -> str:
@@ -39,6 +44,7 @@ A) E[X2]−(E[X])2
 B) E[X]−E[X2]
 C) E[X]
 D) E[X]2"""
+    return 'A'
     raise NotImplementedError
 
 def q06() -> str:
@@ -48,6 +54,7 @@ A) PMF.
 B) PDF.
 C) CDF.
 D) MGF."""
+    return 'C'
     raise NotImplementedError
 
 def q07() -> str:
@@ -57,26 +64,32 @@ A) Akar kuadrat dari variansi.
 B) Kuadrat dari mean.
 C) Selisih antara nilai maksimum dan minimum.
 D) Nilai harapan dari X."""
+    return 'A'
     raise NotImplementedError
 
 def q08() -> float:
     """[Numeric] Jika X memiliki nilai 0,1 dengan probabilitas 0,4,0,6, berapakah E[X]?"""
+    return 0.6
     raise NotImplementedError
 
 def q09() -> float:
     """[Numeric] Hitung (X) untuk variabel pada soal nomor 8."""
+    return 0.24
     raise NotImplementedError
 
 def q10() -> float:
     """[Numeric] Jika E[X] = 10 dan E[X2] = 116, berapakah variansinya?"""
+    return 16.0
     raise NotImplementedError
 
 def q11() -> float:
     """[Numeric] Sebuah variabel acak memiliki nilai 1,2,3 dengan peluang sama. Berapakah
 nilai harapannya?"""
+    return 2.0
     raise NotImplementedError
 
 def q12() -> float:
     """[Numeric] Jika (X) = 4, berapakah (3X+5)?"""
+    return 36.0
     raise NotImplementedError
 
