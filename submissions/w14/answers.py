@@ -12,16 +12,19 @@ Format jawaban:
 from __future__ import annotations
 def q01() -> bool:
     """[T/F] Pengujian A/B adalah aplikasi nyata dari uji hipotesis dua sampel."""
+    return True
     raise NotImplementedError
 
 def q02() -> bool:
     """[T/F] Metrik "Presisi" mengukur seberapa banyak dari total prediksi positif yang benar-
 benar positif."""
+    return True
     raise NotImplementedError
 
 def q03() -> bool:
     """[T/F] Dalam monitoring sistem, kita biasanya mengabaikan outlier karena itu bukan
 bagian dari pola normal."""
+    return False
     raise NotImplementedError
 
 def q04() -> str:
@@ -32,6 +35,7 @@ A) Akurasi.
 B) F1-Score.
 C) Mean.
 D) Range."""
+    return 'B'
     raise NotImplementedError
 
 def q05() -> str:
@@ -41,6 +45,7 @@ A) Data normal.
 B) Outlier atau anomali.
 C) Nilai rata-rata.
 D) Sampel ideal."""
+    return 'B'
     raise NotImplementedError
 
 def q06() -> str:
@@ -50,6 +55,7 @@ A) Mengurangi biaya server.
 B) Menentukan versi produk mana yang memberikan performa/konversi lebih baik.
 C) Menghapus bug secara otomatis.
 D) Mengganti peran programmer."""
+    return 'B'
     raise NotImplementedError
 
 def q07() -> str:
@@ -59,28 +65,34 @@ A) Tidak ada false positive.
 B) Tidak ada false negative.
 C) Akurasi 100%.
 D) Sistem sempurna."""
+    return 'A'
     raise NotImplementedError
 
 def q08() -> float:
     """[Numeric] Jika TP = 80 dan FP = 20, berapakah nilai presisinya?"""
+    return 0.8
     raise NotImplementedError
 
 def q09() -> float:
     """[Numeric] Jika akurasi model adalah 0,95 dan ada 1.000 data, berapa banyak prediksi
 yang benar?"""
+    return 950.0
     raise NotImplementedError
 
 def q10() -> float:
     """[Numeric] Hitung F1-score jika Presisi = 0,8 dan Recall = 0,8."""
+    return 0.8
     raise NotImplementedError
 
 def q11() -> float:
     """[Numeric] Berapakah nilai skor-Z untuk data point 110 jika rata-rata 100 dan simpangan
 baku 5?"""
+    return 2.0
     raise NotImplementedError
 
 def q12() -> float:
     """[Numeric] Jika dalam pengujian A/B, p-value yang didapat adalah 0,001, apakah ada
 perbedaan signifikan pada = 0,05? (Tulis 1 untuk Ya, 0 untuk Tidak)"""
+    return 1.0
     raise NotImplementedError
 
