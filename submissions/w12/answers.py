@@ -13,14 +13,17 @@ from __future__ import annotations
 def q01() -> bool:
     """[T/F] Jika p-value lebih kecil dari tingkat signifikansi , maka kita gagal menolak hipotesis
 nol."""
+    return False
     raise NotImplementedError
 
 def q02() -> bool:
     """[T/F] Galat Tipe I adalah kesalahan menolak padahal benar."""
+    return True
     raise NotImplementedError
 
 def q03() -> bool:
     """[T/F] Meningkatkan ukuran sampel biasanya akan meningkatkan kekuatan uji (power)."""
+    return True
     raise NotImplementedError
 
 def q04() -> str:
@@ -30,6 +33,7 @@ A) Tingkat kepercayaan.
 B) p-value.
 C) Statistik uji.
 D) Parameter."""
+    return 'B'
     raise NotImplementedError
 
 def q05() -> str:
@@ -40,6 +44,7 @@ A) Satu arah (kanan).
 B) Satu arah (kiri).
 C) Dua arah.
 D) Tanpa arah."""
+    return 'C'
     raise NotImplementedError
 
 def q06() -> str:
@@ -49,6 +54,7 @@ A) Keputusan yang benar (Power).
 B) Galat Tipe I.
 C) Galat Tipe II.
 D) Signifikansi."""
+    return 'A'
     raise NotImplementedError
 
 def q07() -> str:
@@ -58,27 +64,33 @@ A) 0,5
 B) 0,05
 C) 0,95
 D) 1,0"""
+    return 'B'
     raise NotImplementedError
 
 def q08() -> float:
     """[Numeric] Jika statistik uji = 2,58 dan nilai kritis c = 1,96 untuk uji dua arah, apakah 0
 ditolak? (Tulis 1 untuk Ya, 0 untuk Tidak)"""
+    return 1.0
     raise NotImplementedError
 
 def q09() -> float:
     """[Numeric] Berapakah nilai jika tingkat kepercayaan adalah 99%?"""
+    return 0.01
     raise NotImplementedError
 
 def q10() -> float:
     """[Numeric] Dalam uji t dengan sampel n = 10, berapakah derajat kebebasannya?"""
+    return 9.0
     raise NotImplementedError
 
 def q11() -> float:
     """[Numeric] Jika p-value = 0,02 dan = 0,05, apakah kita menolak 0? (Tulis 1 untuk Ya, 0
 untuk Tidak)"""
+    return 1.0
     raise NotImplementedError
 
 def q12() -> float:
     """[Numeric] Jika statistik = 0, berapakah p-value untuk uji dua arah?"""
+    return 1.0
     raise NotImplementedError
 
