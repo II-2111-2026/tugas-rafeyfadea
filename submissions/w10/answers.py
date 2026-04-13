@@ -13,16 +13,19 @@ from __future__ import annotations
 def q01() -> bool:
     """[T/F] Teorema Limit Pusat menyatakan bahwa rata-rata sampel akan mendekati
 distribusi Normal jika ukuran sampel cukup besar (n 30)."""
+    return True
     raise NotImplementedError
 
 def q02() -> bool:
     """[T/F] Rata-rata dari distribusi sampling rata-rata ( ) selalu sama dengan rata-rata
 X
 populasi ()."""
+    return True
     raise NotImplementedError
 
 def q03() -> bool:
     """[T/F] Semakin besar ukuran sampel, semakin besar pula Standard Error-nya."""
+    return False
     raise NotImplementedError
 
 def q04() -> str:
@@ -34,6 +37,7 @@ A) 10
 B) 1
 C) 0,1
 D) 100"""
+    return 'B'
     raise NotImplementedError
 
 def q05() -> str:
@@ -43,6 +47,7 @@ A) n sangat kecil.
 B) np 5 dan n(1−p) 5.
 C) Populasi sangat heterogen.
 D) p = 0,5."""
+    return 'B'
     raise NotImplementedError
 
 def q06() -> str:
@@ -52,6 +57,7 @@ A) Error berkurang secara linear dengan n.
 B) Untuk mengurangi error menjadi setengahnya, kita butuh sampel 4 kali lebih banyak.
 C) Error tidak dipengaruhi oleh n.
 D) Sampel besar selalu buruk."""
+    return 'B'
     raise NotImplementedError
 
 def q07() -> str:
@@ -61,29 +67,35 @@ A) Estimator.
 B) Variabel.
 C) Konstanta.
 D) Bias."""
+    return 'A'
     raise NotImplementedError
 
 def q08() -> float:
     """[Numeric] Jika = 50 dan = 10, berapakah nilai rata-rata dari distribusi sampling rata-
 rata untuk n = 25?"""
+    return 50.0
     raise NotImplementedError
 
 def q09() -> float:
     """[Numeric] Hitung Standard Error jika = 12 dan n = 36."""
+    return 2.0
     raise NotImplementedError
 
 def q10() -> float:
     """[Numeric] Jika rata-rata populasi 100 dan Standard Error 2, berapakah skor-Z untuk
 rata-rata sampel X = 104?"""
+    return 2.0
     raise NotImplementedError
 
 def q11() -> float:
     """[Numeric] Jika ukuran sampel adalah 64 dan simpangan baku populasi 8, berapakah
 simpangan baku distribusi rata-rata sampel?"""
+    return 1.0
     raise NotImplementedError
 
 def q12() -> float:
     """[Numeric] Berapakah nilai rata-rata sampel X jika skor-Z nya adalah 1,5, = 80, dan
 Standard Error = 4?"""
+    return 86.0
     raise NotImplementedError
 
