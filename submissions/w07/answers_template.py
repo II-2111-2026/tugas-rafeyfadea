@@ -12,17 +12,14 @@ Format jawaban:
 from __future__ import annotations
 def q01() -> bool:
     """[T/F] Total luas di bawah kurva fungsi padat probabilitas (PDF) selalu sama dengan 1."""
-    return True
     raise NotImplementedError
 
 def q02() -> bool:
     """[T/F] Distribusi Normal Standar memiliki mean 0 dan variansi 1."""
-    return True
     raise NotImplementedError
 
 def q03() -> bool:
     """[T/F] Pada distribusi kontinu, P(X ) selalu sama dengan P(X )."""
-    return True
     raise NotImplementedError
 
 def q04() -> str:
@@ -34,7 +31,6 @@ A) (−)/
 B) (+)/
 C) /(−)
 D) −"""
-    return "A"
     raise NotImplementedError
 
 def q05() -> str:
@@ -45,7 +41,6 @@ A) Binomial.
 B) Normal.
 C) Eksponensial.
 D) Uniform."""
-    return "C"
     raise NotImplementedError
 
 def q06() -> str:
@@ -55,7 +50,6 @@ A)
 B) 2
 C) 3
 D) 0 1"""
-    return "B"
     raise NotImplementedError
 
 def q07() -> str:
@@ -65,32 +59,27 @@ A) 0,5
 B) 2,0
 C) 1,0
 D) 0,25"""
-    return "B"
     raise NotImplementedError
 
 def q08() -> float:
     """[Numeric] Jika (0,1), berapakah P( 0)?"""
-    return 0.5
     raise NotImplementedError
 
 def q09() -> float:
     """[Numeric] Sebuah komponen memiliki rata-rata waktu hidup 100 jam (Eksponensial).
 Berapakah parameter -nya?"""
-    return 0.01
     raise NotImplementedError
 
 def q10() -> float:
     """[Numeric] Nilai untuk probabilitas kumulatif 0,975 adalah sekitar... (Gunakan 2 desimal)"""
-    return 1.96
     raise NotImplementedError
 
 def q11() -> float:
     """[Numeric] Jika X (10,4), berapakah nilai skor-Z untuk = 12?"""
-    return 1.0
     raise NotImplementedError
 
 def q12() -> float:
     """[Numeric] Pada distribusi Normal Standar, berapakah nilai P( > 3) mendekati?
 (Gunakan 4 desimal)"""
-    return 0.0013
     raise NotImplementedError
+
